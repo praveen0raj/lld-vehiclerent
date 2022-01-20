@@ -1,4 +1,4 @@
-package com.rental.zoomcar;
+package com.rental;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
