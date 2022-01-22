@@ -1,10 +1,11 @@
-package com.rental.impl;
+package com.rental.strategy;
 
+import com.rental.constants.PriceConstants;
 import com.rental.model.Location;
 import com.rental.model.VehicleType;
-import com.rental.model.constants.PriceConstants;
-import com.rental.service.PriceStrategy;
+import org.springframework.stereotype.Service;
 
+@Service
 public class PriceStrategyImpl implements PriceStrategy {
 
     @Override

@@ -1,4 +1,4 @@
 package com.rental.exception;
 
-public class BookingNotFoundException {
+public class BookingNotFoundException extends Exception{
 }

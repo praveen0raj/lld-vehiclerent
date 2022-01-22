@@ -1,4 +1,4 @@
-package com.rental.service;
+package com.rental.strategy;
 
 import com.rental.model.Location;
 import com.rental.model.VehicleType;

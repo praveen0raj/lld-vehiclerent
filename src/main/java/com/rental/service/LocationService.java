@@ -6,7 +6,7 @@ import com.rental.model.VehicleType;
 
 public interface LocationService {
 
-    void addLocation(double x, double y, String desc);
+    Location addLocation(double x, double y, String desc);
 
     void updateVehicleLocation(Vehicle vehicle, Location location);
 

@@ -1,8 +1,9 @@
-package com.rental.impl;
+package com.rental.strategy;
 
 import com.rental.model.VehicleType;
-import com.rental.service.QRCodeGEneratorService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class QRCodeGEneratorServiceImpl implements QRCodeGEneratorService {
 
     @Override

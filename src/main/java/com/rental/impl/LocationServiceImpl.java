@@ -5,11 +5,13 @@ import com.rental.model.Vehicle;
 import com.rental.model.VehicleReservationStatus;
 import com.rental.model.VehicleType;
 import com.rental.service.LocationService;
+import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Service
 public class LocationServiceImpl implements LocationService{
 
     Map<String, Location> locations=new HashMap<>();
@@ -19,9 +21,10 @@ public class LocationServiceImpl implements LocationService{
     Map<Location, Map<VehicleType, List<Vehicle>> > unAvailable  = new HashMap<>();
 
     @Override
-    public void addLocation(double x, double y, String desc) {
+    public Location addLocation(double x, double y, String desc) {
         Location location = new Location(x,y);
         locations.put(location.getId(),location);
+        return location;
     }
 
     @Override

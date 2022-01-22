@@ -1,8 +1,9 @@
-package com.rental.impl;
+package com.rental.strategy;
 
 import com.rental.model.VehicleType;
-import com.rental.service.VehicleTypeMatching;
+import org.springframework.stereotype.Service;
 
+@Service
 public class VehicleTypeMatchingImpl implements VehicleTypeMatching {
 
     @Override

@@ -2,10 +2,12 @@ package com.rental.impl;
 
 import com.rental.model.User;
 import com.rental.service.UserService;
+import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Service
 public class UserServiceImpl implements UserService {
 
     Map<String,User> userMap = new HashMap<>();

@@ -1,12 +1,15 @@
 package com.rental.impl;
 
+import com.rental.model.*;
 import com.rental.service.BookingService;
 import com.rental.service.LocationService;
-import com.rental.service.PriceStrategy;
+import com.rental.strategy.PriceStrategy;
+import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Service
 public class BookingServiceImpl implements BookingService {
 
     Map<String, Booking> bookings = new HashMap<>();

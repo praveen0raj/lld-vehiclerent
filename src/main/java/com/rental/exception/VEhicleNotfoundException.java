@@ -1,4 +1,4 @@
 package com.rental.exception;
 
-public class VEhicleNotfoundException {
+public class VehicleNotfoundException extends Exception{
 }

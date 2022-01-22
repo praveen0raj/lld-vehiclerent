@@ -1,4 +1,5 @@
 package com.rental.model;
 
-public enum VehicleService {
+public abstract class VehicleService {
+
 }

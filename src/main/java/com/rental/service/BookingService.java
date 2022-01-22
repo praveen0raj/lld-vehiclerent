@@ -1,5 +1,7 @@
 package com.rental.service;
 
+import com.rental.model.*;
+
 public interface BookingService {
 
      Booking bookVehicle(User user, VehicleType vehicleType, Location location);
